@@ -58,4 +58,4 @@ Upon successful completion of a category the user may earn stars and be added to
 
 ### Conclusion
 
-Once user decides to part ways with website their personal data will still remain stored on their computer so at a later date they can continue to see their past attemps.
+Once user decides to part ways with website their personal data will still remain stored on their computer so at a later date they can continue to see their past attemps
