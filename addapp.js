@@ -19,8 +19,8 @@ if (timeLeft === 0) {
   const finalScore = score;
   const scores = JSON.parse(localStorage.getItem("scores")) || [];
   scores.push({ score: finalScore });
-  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score
-  window.location.href = "addscores.html"; // Redirect to the score page
+  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score in local storage
+  window.location.href = "addscores.html"; // Goes to the score page after timer goes off
 }
 
     }, 1000);
