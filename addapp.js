@@ -3,8 +3,8 @@ let timer;
 let timeLeft = 60;
 
 function generateProblem() {
-    const num1 = Math.floor(Math.random() * 10) + 1; // provids a random number 1-10
-    const num2 = Math.floor(Math.random() * 10) + 1; // provids a random number 1-10
+    const num1 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
+    const num2 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
     document.getElementById("problem").textContent = `${num1} + ${num2} = ?`;
 }
 
