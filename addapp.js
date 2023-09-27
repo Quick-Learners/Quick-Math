@@ -3,8 +3,8 @@ let timer;
 let timeLeft = 60;
 
 function generateProblem() {
-    const num1 = Math.floor(Math.random() * 10) + 1; // provids a random number 1-10
-    const num2 = Math.floor(Math.random() * 10) + 1; // provids a random number 1-10
+    const num1 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
+    const num2 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
     document.getElementById("problem").textContent = `${num1} + ${num2} = ?`;
 }
 
@@ -19,8 +19,8 @@ if (timeLeft === 0) {
   const finalScore = score;
   const scores = JSON.parse(localStorage.getItem("scores")) || [];
   scores.push({ score: finalScore });
-  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score
-  window.location.href = "addscores.html"; // Redirect to the score page
+  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score in local storage
+  window.location.href = "addscores.html"; // Goes to the score page after timer goes off
 }
 
     }, 1000);
