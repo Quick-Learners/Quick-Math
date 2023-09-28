@@ -1,3 +1,5 @@
+'use strict';
+
 let score = 0;
 let timer;
 let timeLeft = 60;

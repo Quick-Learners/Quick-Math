@@ -19,3 +19,4 @@ Sources (Khari)
 ChatGPT 
 YouTube (Wes Bos(Timer))
 StackOverflow
+https://www.tutorialspoint.com/How-to-redirect-to-another-webpage-using-JavaScript
