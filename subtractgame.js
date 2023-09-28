@@ -1,3 +1,5 @@
+'use strict'
+
 let score = 0;
 let timer;
 let timeLeft = 60;
@@ -29,9 +31,9 @@ if (timeLeft === 0) {
 document.getElementById("submit").addEventListener("click", function() {
     const userAnswer = parseInt(document.getElementById("answer").value);
     const problemText = document.getElementById("problem").textContent;
-    const nums = problemText.split("+").map(num => parseInt(num));
+    const nums = problemText.split("-").map(num => parseInt(num));
 
-    if (userAnswer === nums[0] + nums[1]) {
+    if (userAnswer === nums[0] - nums[1]) {
         score++;
         document.getElementById("score").textContent = `Score: ${score}`;
     }
