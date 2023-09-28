@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 
 let score = 0;
 let timer;
 let timeLeft = 60;
 
 function generateProblem() {
-    const num1 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
-    const num2 = Math.floor(Math.random() * 10) + 1; // provides a random number 1-10
-    document.getElementById("problem").textContent = `${num1} + ${num2} = ?`;
+    const num1 = Math.floor(Math.random() * 10) + 1;
+    const num2 = Math.floor(Math.random() * 10) + 1;
+    document.getElementById("problem").textContent = `${num1} - ${num2} = ?`;
 }
 
 function startTimer() {
@@ -21,8 +21,8 @@ if (timeLeft === 0) {
   const finalScore = score;
   const scores = JSON.parse(localStorage.getItem("scores")) || [];
   scores.push({ score: finalScore });
-  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score in local storage
-  window.location.href = "addscores.html"; // Goes to the score page after timer goes off
+  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score
+  window.location.href = "trackscores.html"; // Redirect to the score page
 }
 
     }, 1000);
@@ -31,9 +31,9 @@ if (timeLeft === 0) {
 document.getElementById("submit").addEventListener("click", function() {
     const userAnswer = parseInt(document.getElementById("answer").value);
     const problemText = document.getElementById("problem").textContent;
-    const nums = problemText.split("+").map(num => parseInt(num));
+    const nums = problemText.split("-").map(num => parseInt(num));
 
-    if (userAnswer === nums[0] + nums[1]) {
+    if (userAnswer === nums[0] - nums[1]) {
         score++;
         document.getElementById("score").textContent = `Score: ${score}`;
     }

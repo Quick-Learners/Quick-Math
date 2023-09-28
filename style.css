@@ -1,0 +1,50 @@
+body {
+  background-color: rgba(9, 248, 248, 0.279);
+}
+
+header {
+  text-align: center;
+}
+
+.image-container {
+  width: 100%;
+}
+
+img {
+  float: left; /* Float the image to the left */
+  width: 50%;   /* Adjust the width as needed */
+}
+
+.text {
+  margin-left: 55%; /* Add a margin to the left of the text to create space */
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+h1, h2 {
+  color: rgba(115, 205, 92, 0.785);
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.image {
+ align-items: center;
+}
+
+footer {
+  text-align: center;
+  margin: 10%;
+}

@@ -1,15 +1,11 @@
-'use strict';
-
+'use strict'
 
 const scores = JSON.parse(localStorage.getItem("scores")) || [];
-
 
   // Sort scores in descending order
   scores.sort((a, b) => b.score - a.score);
 
-
   const scoreList = document.getElementById("score-list");
-
 
   if (scores.length === 0) {
       const noScoresRow = document.createElement("tr");
