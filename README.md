@@ -20,3 +20,4 @@ ChatGPT
 YouTube (Wes Bos(Timer))
 StackOverflow
 https://www.tutorialspoint.com/How-to-redirect-to-another-webpage-using-JavaScript
+https://www.w3schools.com/js/js_random.asp
