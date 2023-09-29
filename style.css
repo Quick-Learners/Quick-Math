@@ -6,6 +6,15 @@ header {
   text-align: center;
 }
 
+.links {
+  text-align: right;
+}
+
+a{
+  margin-right: 20px;
+}
+
+
 .image-container {
   width: 100%;
 }
@@ -41,7 +50,31 @@ h3 {
 }
 
 .image {
- align-items: center;
+text-align: center;
+}
+
+.previous-score {
+  margin-top: 20px;
+}
+
+table {
+  border: hotpink solid 3px;
+  background-color: pink;
+  padding: 50px;
+}
+
+.add-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.score-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addition-header {
+ text-align: center;
 }
 
 footer {

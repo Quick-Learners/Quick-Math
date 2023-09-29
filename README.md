@@ -16,8 +16,8 @@
 - Users will earn points for each correct answer and will earn a reward at the end of the round based on their score. They will also be able to see where they place on our leaderboard.
 
 Sources (Khari)
-ChatGPT 
-YouTube (Wes Bos(Timer))
+https://youtu.be/LAaf7-WuJJQ?si=bMXC1P3eKnWL_MDp
 StackOverflow
 https://www.tutorialspoint.com/How-to-redirect-to-another-webpage-using-JavaScript
 https://www.w3schools.com/js/js_random.asp
+ChatGPT
