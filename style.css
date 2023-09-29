@@ -8,34 +8,47 @@ header {
 
 .links {
   text-align: right;
+  font-size: 20px;
 }
 
-a{
+a {
   margin-right: 20px;
-}
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 
+}
 
 .image-container {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px;
 }
 
-img {
-  float: left; /* Float the image to the left */
-  width: 50%;   /* Adjust the width as needed */
-}
-
-.text {
-  margin-left: 55%; /* Add a margin to the left of the text to create space */
+.index-text {
+ margin: 30px;
+ font-size: 30px;
 }
 
 .buttons {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+ text-align: center;
 }
 
+.add-sub {
+ margin: 15px;
+}
 
+.mul-div {
+  margin: 15px;
+
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 5px solid black;
+}
 
 h1, h2 {
   color: rgba(115, 205, 92, 0.785);
@@ -61,6 +74,7 @@ table {
   border: hotpink solid 3px;
   background-color: pink;
   padding: 50px;
+  width: 450px;
 }
 
 .add-table {
@@ -80,4 +94,38 @@ table {
 footer {
   text-align: center;
   margin: 10%;
+}
+
+.instruct {
+border: hotpink solid 3px;
+background-color: pink;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.game-problems {
+  text-align: center;
+}
+
+#answer {
+  border: hotpink solid 3px;
+background-color: pink;
+margin-left: auto;
+margin-right: auto;
+margin: 15px;
+}
+
+#score {
+  border: rgba(80, 168, 56, 0.785) solid 3px;
+  background-color: rgba(115, 205, 92, 0.785);
+  margin: 15px;
+  margin-left: auto;
+margin-right: auto;
+  width: 65px;
+  text-align: center;
+}
+
+#timer {
+  text-align: center;
 }

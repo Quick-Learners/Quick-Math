@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Game</title>
-    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>Quick-Math</h1>
         <div class="links">
@@ -15,12 +16,15 @@
         </div>
       </header>
 <main>
-    <h1>Addition Game</h1>
+    <hr/>
+    <h1 class="image" >Addition Game</h1>
+    <section class="game-problems">
     <div id="problem"></div>
     <input type="number" id="answer" placeholder="Enter your answer">
     <button id="submit">Submit</button>
-    <div id="score">Score: 0</div>
-    <div id="timer">Time left: 60s</div>
+</section>
+<div id="score">Score: 0</div>
+<div id="timer">Time left: 60s</div>
     <script src="addapp.js"></script>
 </main>
     <footer>
