@@ -21,6 +21,8 @@
 - Users will earn points for each correct answer and will earn a reward at the end of the round based on their score. They will also be able to see where they place on our leaderboard.
 
 Sources
+https://quick-learners.github.io/Quick-Math/
+https://github.com/Quick-Learners/Quick-Math
 https://youtu.be/LAaf7-WuJJQ?si=bMXC1P3eKnWL_MDp
 StackOverflow
 https://www.w3schools.com/howto/howto_js_countdown.asp
@@ -52,3 +54,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
