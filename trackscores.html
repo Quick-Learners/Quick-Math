@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Game Scores</title>
     <link rel="stylesheet" href="style.css" />
-</head>
 <body>
-    <hr/>
-    <h1>Scores</h1>
-    <table>
+    <header>
+        <h1>Quick-Math</h1>
+        <div class="links">
+        <a href="index.html">Home</a>
+        <a href="bio.html">Meet Our Team</a>
+        </div>
+    </header>
+    <main>
+        <hr/>
+    <h1 class="addition-header">High Scores</h1>
+    <table class="add-table">
         <thead>
             <tr>
-                <th>Rank</th>
-                <th>Score</th>
+                <th class="rank-section">Rank</th>
+                <th class="score-section">Score</th>
             </tr>
         </thead>
         <tbody id="score-list">
         </tbody>
     </table>
     <script src="trackscores.js"></script>
-    <footer>
-        &copy Angel Caleb Khari
-      </footer>
+    <div class="score-button">
+    <a href="subtractioninstructions.html"><button>Try Again</button></a>
+    </div>
+</main>
+<footer>
+    &copy Angel Caleb Khari
+  </footer>
 </body>
 </html>
