@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let score = 0;
 let timer;
@@ -15,15 +15,15 @@ function startTimer() {
         timeLeft--;
         document.getElementById("timer").textContent = `Time left: ${timeLeft}s`;
 
-// When the timer reaches zero
-if (timeLeft === 0) {
-  clearInterval(timer);
-  const finalScore = score;
-  const scores = JSON.parse(localStorage.getItem("scores")) || [];
-  scores.push({ score: finalScore });
-  localStorage.setItem("scores", JSON.stringify(scores)); // Store the score
-  window.location.href = "trackscores.html"; // Redirect to the score page
-}
+        // When the timer reaches zero
+        if (timeLeft === 0) {
+            clearInterval(timer);
+            const finalScore = score;
+            const scores = JSON.parse(localStorage.getItem("scores")) || [];
+            scores.push({ score: finalScore });
+            localStorage.setItem("scores", JSON.stringify(scores)); // Store the score
+            window.location.href = "trackscores.html"; // Redirect to the score page
+        }
 
     }, 1000);
 }
@@ -40,6 +40,10 @@ document.getElementById("submit").addEventListener("click", function() {
 
     document.getElementById("answer").value = "";
     generateProblem();
+    
+    // Log user's answer and current score
+    //console.log(`User Answer: ${userAnswer}`);
+    //console.log(`Current Score: ${score}`);
 });
 
 generateProblem();
